@@ -1,0 +1,98 @@
+$blue: hsl(223, 87%, 63%);
+$paleBlue: hsl(223, 100%, 88%);
+$lightRed: hsl(354, 100%, 66%);
+$gray: hsl(0, 0%, 59%);
+$veryDarkBlue: hsl(209, 33%, 12%);
+
+* {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif;
+}
+img {
+  max-width: 100%;
+}
+
+.ping {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 85px 0 20px 0;
+
+  &__logo {
+    max-width: 55px;
+  }
+  &__title {
+    color: $gray;
+    font-weight: 300;
+    margin: 45px 0 25px 0;
+  }
+  &__text {
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  &__span {
+    color: $veryDarkBlue;
+    font-weight: 700;
+  }
+
+  &__img {
+    max-width: 321px;
+    margin-top: 55px;
+    margin-bottom: 120px;
+  }
+  &__copy {
+    font-size: 10px;
+  }
+}
+
+.form {
+  width: 285px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.input,
+.btn {
+  height: 40px;
+  width: 100%;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.input {
+  border: 1px solid $paleBlue;
+  &::placeholder {
+    color: $paleBlue;
+    padding-left: 20px;
+  }
+}
+
+.btn {
+  background-color: $blue;
+  color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.social {
+  margin-bottom: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__icon {
+    border: $paleBlue solid 1px;
+    width: 1.875em;
+    height: 1.875em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    color: $blue;
+  }
+}

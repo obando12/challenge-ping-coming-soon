@@ -1,0 +1,142 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Libre Franklin", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.ping {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 85px 0 20px 0;
+}
+
+.ping__logo {
+  max-width: 55px;
+}
+
+.ping__title {
+  color: #969696;
+  font-weight: 300;
+  margin: 45px 0 25px 0;
+}
+
+.ping__text {
+  font-size: 12px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.ping__span {
+  color: #151f29;
+  font-weight: 700;
+}
+
+.ping__img {
+  max-width: 321px;
+  margin-top: 55px;
+  margin-bottom: 120px;
+}
+
+.ping__copy {
+  font-size: 10px;
+}
+
+.form {
+  width: 285px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.input,
+.btn {
+  height: 40px;
+  width: 100%;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.input {
+  border: 1px solid #c2d3ff;
+}
+
+.input::-webkit-input-placeholder {
+  color: #c2d3ff;
+  padding-left: 20px;
+}
+
+.input:-ms-input-placeholder {
+  color: #c2d3ff;
+  padding-left: 20px;
+}
+
+.input::-ms-input-placeholder {
+  color: #c2d3ff;
+  padding-left: 20px;
+}
+
+.input::placeholder {
+  color: #c2d3ff;
+  padding-left: 20px;
+}
+
+.btn {
+  background-color: #4f7df3;
+  color: white;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.social {
+  margin-bottom: 27px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social__icon {
+  border: #c2d3ff solid 1px;
+  width: 1.875em;
+  height: 1.875em;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 5px;
+  color: #4f7df3;
+}
+/*# sourceMappingURL=app.css.map */
