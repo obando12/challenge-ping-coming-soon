@@ -33,8 +33,11 @@
 
       <p class="ping__text">Subscribe and get notified</p>
 
-      <form class="form">
-        <input type="text" class="input" placeholder="Your email address..." />
+      <form class="form" novalidate>
+        <input type="email" class="input" placeholder="Your email address..." />
+        <small class="form__error">
+          Please provide a valid email address
+        </small>
         <button class="btn">Notify Me</button>
       </form>
       <img class="ping__img" src="./images/illustration-dashboard.png" alt="" />
@@ -47,5 +50,6 @@
 
       <p class="ping__copy">&copy; Copyright Ping. All rights reserved.</p>
     </section>
+    <script src="./app.js"></script>
   </body>
 </html>
